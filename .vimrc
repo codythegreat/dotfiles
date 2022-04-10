@@ -15,7 +15,10 @@ Plugin 'VundleVim/Vundle.vim'
 
 
 """"""""" PLUGINS START """"""""" 
+" navigate via <leader><leader>s{character}
 Plugin 'easymotion/vim-easymotion'
+" change surrounding characters and tags
+Plugin 'tpope/vim-surround'
 """"""""" PLUGINS END """"""""" 
 
 " All of your Plugins must be added before the following line
