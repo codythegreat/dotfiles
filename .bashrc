@@ -93,10 +93,15 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # CWM aliases
+alias src='source ~/.bashrc'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
 alias dev='cd ~/Documents/github/codythegreat'
 alias path='echo $PATH'
+alias glog='git log --graph --decorate --oneline'
+alias gs='git status'
+alias xclip='xclip -selection c'
+alias gitpass='cat ~/git-personal-access-token | xclip'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
