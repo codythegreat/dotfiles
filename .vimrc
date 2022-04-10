@@ -70,10 +70,14 @@ nnoremap <leader>k :m .-2<CR>==
 
 " yanking/putting to/from system registers
 vnoremap <leader>y "+y
+" if in WSL, use this instead
+" vnoremap <leader>y :w !clip.exe<CR><CR>
+
 nnoremap <leader>p "*p
 
 " yank and put current word into search
 nnoremap <leader>sw "cyiw/<C-R>c<CR>
+ 
 " yank and put current word into search
 nnoremap <leader>sl "cY/<C-R>c<CR>
 
