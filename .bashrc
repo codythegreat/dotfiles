@@ -101,10 +101,15 @@ alias path='echo $PATH'
 alias glog='git log --graph --decorate --oneline'
 alias gs='git status'
 alias gd='git diff'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push origin master'
 alias xclip='xclip -selection c'
 alias gitpass='cat ~/git-personal-access-token | xclip'
 # opens current repo in the browser
 alias repo='git config --get remote.origin.url | xargs xdg-open'
+alias ranger='. ranger'
+alias scripts='cd ~/scripts'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
