@@ -19,6 +19,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'easymotion/vim-easymotion'
 " change surrounding characters and tags
 Plugin 'tpope/vim-surround'
+" comment out stuff
+Plugin 'tpope/vim-commentary'
 """"""""" PLUGINS END """"""""" 
 
 " All of your Plugins must be added before the following line
