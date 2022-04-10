@@ -100,8 +100,11 @@ alias dev='cd ~/Documents/github/codythegreat'
 alias path='echo $PATH'
 alias glog='git log --graph --decorate --oneline'
 alias gs='git status'
+alias gd='git diff'
 alias xclip='xclip -selection c'
 alias gitpass='cat ~/git-personal-access-token | xclip'
+# opens current repo in the browser
+alias repo='git config --get remote.origin.url | xargs xdg-open'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
