@@ -21,6 +21,12 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'tpope/vim-surround'
 " comment out stuff
 Plugin 'tpope/vim-commentary'
+" tpope's DB plugin
+Plugin 'tpope/vim-dadbod'
+" gruvbox colorscheme
+Plugin 'morhetz/gruvbox'
+" nerdtree
+Plugin 'preservim/nerdtree'
 """"""""" PLUGINS END """"""""" 
 
 " All of your Plugins must be added before the following line
@@ -42,6 +48,8 @@ set incsearch                " allows for incremental searching
 " set spell                    " enables spell checking
 set path+=**                 " for files, search subfolders with tab-completion
 set wildmenu                 " show all matching files when tab completing
+colorscheme gruvbox
+set background=dark
 set colorcolumn=80           " adds a colored column at 80th col
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
