@@ -101,6 +101,9 @@ nnoremap <leader>sfw "cyiw:tabe *<C-R>c
 " open line as file
 nnoremap <leader>sfl "cyy:tabe <C-R>c<BS><CR>
 
+" quickly open/close nerd tree
+nnoremap <leader>n :NERDTreeToggle<CR>
+
 """"""""" netrw changes """"""""" 
 
 " hide the banner
