@@ -27,6 +27,8 @@ Plugin 'tpope/vim-dadbod'
 Plugin 'morhetz/gruvbox'
 " nerdtree
 Plugin 'preservim/nerdtree'
+" emmet for html
+Plugin 'mattn/emmet-vim'
 """"""""" PLUGINS END """"""""" 
 
 " All of your Plugins must be added before the following line
