@@ -97,7 +97,7 @@ alias src='source ~/.bashrc'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
 alias dev='cd ~/Documents/github/codythegreat'
-alias path='echo $PATH'
+# alias path='echo $PATH'
 alias glog='git log --graph --decorate --oneline'
 alias gi='git init'
 alias gs='git status'
@@ -111,6 +111,9 @@ alias gitpass='cat ~/git-personal-access-token | xclip'
 alias repo='git config --get remote.origin.url | xargs xdg-open'
 alias ranger='. ranger'
 alias scripts='cd ~/scripts'
+# searching google and duckduckgo from command line
+alias ?='duck'
+alias ??='google'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
