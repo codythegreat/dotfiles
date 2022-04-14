@@ -35,6 +35,7 @@ Plugin 'mattn/emmet-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set mouse=a                  " allows scrolling and highlighting with mouse
 set tabstop=4
 set shiftwidth=4
 set expandtab                " convert from tab character to spaces
@@ -103,6 +104,9 @@ nnoremap <leader>sfl "cyy:tabe <C-R>c<BS><CR>
 
 " quickly open/close nerd tree
 nnoremap <leader>n :NERDTreeToggle<CR>
+
+" quickly source vimrc
+nnoremap <leader>src :source ~/.vimrc<CR>
 
 """"""""" netrw changes """"""""" 
 
