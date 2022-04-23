@@ -35,6 +35,7 @@ Plugin 'mattn/emmet-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set omnifunc=syntaxcomplete#Complete
 set mouse=a                  " allows scrolling and highlighting with mouse
 set tabstop=4
 set shiftwidth=4
@@ -113,3 +114,7 @@ nnoremap <leader>src :source ~/.vimrc<CR>
 " hide the banner
 let g:netrw_banner=0
 let g:netrw_liststyle=3
+
+
+""""""""" dadbod changes """"""""" 
+let g:db="mysql://root@localhost/michelin"
