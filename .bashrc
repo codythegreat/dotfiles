@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=5000
-HISTFILESIZE=10000
+HISTSIZE=500000
+HISTFILESIZE=1000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -114,6 +114,11 @@ alias scripts='cd ~/scripts'
 # searching google and duckduckgo from command line
 alias ?='duck'
 alias ??='google'
+# moving backwards in directories
+alias ..='cd ..'
+alias .2='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
