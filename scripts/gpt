@@ -1,0 +1,15 @@
+#!/bin/bash
+
+curl https://api.openai.com/v1/completions \
+-sw "\n" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer $OPENAI_API_KEY" \
+-d '{
+  "model": "text-davinci-003",
+  "prompt": "ENVIRONMENT:\nLinux Terminal (Ubuntu)\n\nQUESTION:\n'"$1"'\n\nANSWER:\n",
+  "temperature": 0.7,
+  "max_tokens": 256,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}' | jq -r '.choices[0].text'
